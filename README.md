@@ -63,7 +63,7 @@ You can get precompiled tty0tty dkms module or ssniffer packages from the [pidui
     echo "deb [signed-by=/usr/share/keyrings/piduino-archive-keyring.gpg] http://apt.piduino.org $(lsb_release -c -s) piduino" | sudo tee /etc/apt/sources.list.d/piduino.list
     sudo apt update
 
-This repostitory provides packages for the following distributions:  
+This repository provides packages for the following distributions:  
 * **bookworm** (Debian 12)  
 * **bullseye** (Debian 11)  
 * **buster** (Debian 10 which is EOL, it will be removed next year)
@@ -94,9 +94,9 @@ for debian package:
 
     sudo apt-get install devscripts build-essential lintian debhelper dkms dh-dkms
 
-Download the archive file from https://github.com/lcgamboa/tty0tty/archive/refs/heads/master.zip
+Download the archive file from https://github.com/epsilonrt/tty0tty/archive/refs/heads/master.zip
 
-    wget https://github.com/lcgamboa/tty0tty/archive/refs/heads/master.zip
+    wget https://github.com/epsilonrt/tty0tty/archive/refs/heads/master.zip
     unzip master.zip
     cd tty0tty-master
     dpkg-buildpackage
@@ -144,7 +144,7 @@ then run with:
     
 ### ssniffer
 
-    cd ssnifer
+    cd ssniffer
     make
     make install
 

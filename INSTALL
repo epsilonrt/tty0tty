@@ -15,7 +15,7 @@ module:
 Requirements:
 
   for module build is necessary kernel-headers or kernel source.
-  To install kernel headrs in Debian based distro use the command:
+  To install kernel headers in Debian based distro use the command:
 
   sudo apt-get -y install linux-headers-`uname -r` 
 
